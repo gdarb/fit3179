@@ -1,0 +1,69 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 1200,
+  "height": 550,
+  "data": {
+    "url": "/fit3179/data/monthly.csv"
+  },
+  "transform": [
+    {
+      "calculate": "(+datum['Metropolitan train']) + (+datum['Metropolitan tram']) + (+datum['Metropolitan bus']) + (+datum['Regional train']) + (+datum['Regional coach']) + (+datum['Regional bus'])",
+      "as": "TotalPassengers"
+    },
+    {
+      "calculate": "datetime(datum.Year, datum.Month - 1)",
+      "as": "YearMonthDate"
+    }
+  ],
+  "layer": [
+    {
+      "mark": "line",
+      "encoding": {
+        "x": {
+          "field": "YearMonthDate",
+          "type": "temporal",
+          "title": "Date",
+          "axis": {
+            "format": "%Y-%m"
+          }
+        },
+        "y": {
+          "field": "TotalPassengers",
+          "type": "quantitative",
+          "title": "Total Passengers"
+        },
+        "opacity": { "value": 0.5 }
+      },
+      "title": "Total Passengers Over Time"
+    },
+    {
+      "mark": "circle",
+      "encoding": {
+        "x": {
+          "field": "YearMonthDate",
+          "type": "temporal"
+        },
+        "y": {
+          "field": "TotalPassengers",
+          "type": "quantitative"
+        },
+        "size": { "value": 60 },
+        "opacity": { "value": 1 },
+        "tooltip": [
+          {
+            "field": "TotalPassengers",
+            "type": "quantitative",
+            "title": "Total Passengers",
+            "format": ","
+          },
+          {
+            "field": "YearMonthDate",
+            "type": "temporal",
+            "title": "Date",
+            "format": "%B %Y"
+          }
+        ]
+      }
+    }
+  ]
+}
