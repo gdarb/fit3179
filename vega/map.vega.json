@@ -3,7 +3,39 @@
   "width": 1200,
   "height": 550,
   "title": "Transportation across Victoria",
-  "projection": { "type": "equirectangular" },
+  "projection": {
+    "type": "equirectangular",
+    "scale": { "expr": "zoom_level" },
+    "center": { "expr": "center_to" }
+  },
+  "params": [
+    {
+      "name": "zoom_level",
+      "value": 4400,
+      "bind": {
+        "input": "range",
+        "min": 4400,
+        "max": 100000,
+        "step": 100,
+        "name": "Zoom: "
+      }
+    },
+    {
+      "name": "center_to",
+      "value": [144.9, -36.7],
+      "bind": {
+        "input": "select",
+        "options": [
+          [145, -37.95],
+          [144.3, -38.1],
+          [144.9, -36.7],
+          [147.1, -38.1]
+        ],
+        "labels": ["Melbourne CBD", "Geelong", "Bendigo", "Sale"],
+        "name": "Map Centre: "
+      }
+    }
+  ],
   "layer": [
     {
       "data": {
