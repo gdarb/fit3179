@@ -1,0 +1,459 @@
+Fin_year,Stop_ID,Stop_name,Stop_lat,Stop_long,Pax_annual
+FY18-19,19980,Melton Railway Station (Melton South),-37.703362,144.572217,827850
+FY18-19,19981,Rockbank Railway Station (Rockbank),-37.729258,144.65063,41450
+FY18-19,19982,Deer Park Railway Station (Deer Park),-37.77776,144.772307,453950
+FY18-19,20020,Ardeer Railway Station (Ardeer),-37.783063,144.802193,53500
+FY18-19,20287,Albury Railway Station (Albury (NSW)),-36.084263,146.924518,39250
+FY18-19,20288,Ararat Railway Station (Ararat),-37.282202,142.936912,42750
+FY18-19,20289,Avenel Railway Station (Avenel),-36.893644,145.229517,1850
+FY18-19,20290,Bacchus Marsh Railway Station (Maddingley),-37.687517,144.436857,350700
+FY18-19,20291,Bairnsdale Railway Station (Bairnsdale),-37.828717,147.627615,58100
+FY18-19,20292,Ballan Railway Station (Ballan),-37.6043,144.225443,105500
+FY18-19,20293,Ballarat Railway Station (Ballarat Central),-37.55879,143.859452,624050
+FY18-19,20294,Beaufort Railway Station (Beaufort),-37.427875,143.382233,9200
+FY18-19,20295,Benalla Railway Station (Benalla),-36.544549,145.983914,26700
+FY18-19,20296,Bendigo Railway Station (Bendigo),-36.765673,144.283012,437100
+FY18-19,20297,Birregurra Railway Station (Birregurra),-38.328807,143.78362,3300
+FY18-19,20298,Broadford Railway Station (Broadford),-37.207202,145.043009,62600
+FY18-19,20299,Bunyip Railway Station (Bunyip),-38.09911,145.720762,14750
+FY18-19,20300,Camperdown Railway Station (Camperdown),-38.2289,143.150932,14000
+FY18-19,20301,Castlemaine Railway Station (Castlemaine),-37.062836,144.213801,240500
+FY18-19,20302,Chiltern Railway Station (Chiltern),-36.155634,146.61138,3350
+FY18-19,20303,Clarkefield Railway Station (Clarkefield),-37.483497,144.745368,45900
+FY18-19,20304,Colac Railway Station (Colac),-38.343378,143.586658,27700
+FY18-19,20305,Corio Railway Station (Corio),-38.072835,144.37977,28600
+FY18-19,20306,Dingee Railway Station (Dingee),-36.369235,144.23112,400
+FY18-19,20307,Donnybrook Railway Station (Donnybrook),-37.542571,144.96955,58750
+FY18-19,20308,Drouin Railway Station (Drouin),-38.136453,145.855943,104000
+FY18-19,20309,Eaglehawk Railway Station (Eaglehawk),-36.718528,144.248382,2700
+FY18-19,20310,Echuca Railway Station (Echuca),-36.130985,144.753463,15300
+FY18-19,20311,Elmore Railway Station (Elmore),-36.495017,144.607753,1200
+FY18-19,20312,Euroa Railway Station (Euroa),-36.749135,145.568086,7050
+FY18-19,20313,Garfield Railway Station (Garfield),-38.09103,145.67422,24750
+FY18-19,20314,Geelong Railway Station (Geelong),-38.144241,144.354992,844050
+FY18-19,20315,Gisborne Railway Station (New Gisborne),-37.458825,144.598718,162500
+FY18-19,20316,Heathcote Junction Railway Station (Heathcote Junction),-37.371709,145.028202,12600
+FY18-19,20317,Kangaroo Flat Railway Station (Kangaroo Flat),-36.794838,144.248993,62250
+FY18-19,20318,Kerang Railway Station (Kerang),-35.733123,143.92443,7450
+FY18-19,20319,Kilmore East Railway Station (Kilmore East),-37.293208,144.983565,76400
+FY18-19,20320,Kyneton Railway Station (Kyneton),-37.258277,144.450602,162800
+FY18-19,20321,Lara Railway Station (Lara),-38.022428,144.414402,383900
+FY18-19,20323,Little River Railway Station (Little River),-37.962928,144.498485,22450
+FY18-19,20324,Longwarry Railway Station (Longwarry),-38.110992,145.76686,14200
+FY18-19,20325,Macedon Railway Station (Macedon),-37.423577,144.561397,36700
+FY18-19,20326,Malmsbury Railway Station (Malmsbury),-37.189744,144.375325,18150
+FY18-19,20327,Marshall Railway Station (Marshall),-38.19855,144.355055,219150
+FY18-19,20328,Moe Railway Station (Moe),-38.176907,146.260574,114600
+FY18-19,20329,Mooroopna Railway Station (Mooroopna),-36.399127,145.358217,5700
+FY18-19,20330,Morwell Railway Station (Morwell),-38.236723,146.396752,110950
+FY18-19,20331,Murchison East Railway Station (Murchison East),-36.61315,145.24064,11350
+FY18-19,20332,Nagambie Railway Station (Nagambie),-36.78546,145.160358,3650
+FY18-19,20333,Nar Nar Goon Railway Station (Nar Nar Goon),-38.08159,145.57167,9350
+FY18-19,20334,North Geelong Railway Station (North Geelong),-38.122836,144.352277,340050
+FY18-19,20335,North Shore Railway Station (North Shore),-38.098373,144.365323,71600
+FY18-19,20336,Pyramid Railway Station (Pyramid Hill),-36.053113,144.11313,2800
+FY18-19,20337,Riddells Creek Railway Station (Riddells Creek),-37.465127,144.679828,84600
+FY18-19,20338,Rochester Railway Station (Rochester),-36.362363,144.698683,3900
+FY18-19,20339,Rosedale Railway Station (Rosedale),-38.156403,146.786965,2550
+FY18-19,20341,Sale Railway Station (Sale),-38.103105,147.054802,33800
+FY18-19,20342,Seymour Railway Station (Seymour),-37.024725,145.137733,174050
+FY18-19,20343,Shepparton Railway Station (Shepparton),-36.383795,145.4065,69150
+FY18-19,20344,South Geelong Railway Station (South Geelong),-38.15866,144.358987,557400
+FY18-19,20345,Springhurst Railway Station (Springhurst),-36.185894,146.470421,1500
+FY18-19,20346,Stratford Railway Station (Stratford),-37.967047,147.081468,4550
+FY18-19,20347,Swan Hill Railway Station (Swan Hill),-35.341113,143.562347,40300
+FY18-19,20348,Tallarook Railway Station (Tallarook),-37.092332,145.103002,8200
+FY18-19,20349,Terang Railway Station (Terang),-38.236215,142.911467,8900
+FY18-19,20350,Trafalgar Railway Station (Trafalgar),-38.207239,146.15477,54250
+FY18-19,20351,Traralgon Railway Station (Traralgon),-38.198889,146.537884,153500
+FY18-19,20352,Tynong Railway Station (Tynong),-38.084994,145.628231,5500
+FY18-19,20353,Violet Town Railway Station (Violet Town),-36.638817,145.715926,3300
+FY18-19,20354,Wallan Railway Station (Wallan),-37.416534,145.005354,155650
+FY18-19,20355,Wandong Railway Station (Wandong),-37.354676,145.026414,41250
+FY18-19,20356,Wangaratta Railway Station (Wangaratta),-36.355102,146.317041,45400
+FY18-19,20357,Warragul Railway Station (Warragul),-38.165227,145.932675,163500
+FY18-19,20358,Warrnambool Railway Station (Warrnambool),-38.385015,142.475547,87100
+FY18-19,20359,Winchelsea Railway Station (Winchelsea),-38.240133,143.984137,5300
+FY18-19,20360,Wodonga Railway Station (Wodonga),-36.105829,146.871267,34700
+FY18-19,20361,Woodend Railway Station (Woodend),-37.358803,144.525893,178150
+FY18-19,20362,Yarragon Railway Station (Yarragon),-38.203155,146.063065,12450
+FY18-19,22257,Sherwood Park Railway Station (Warrnambool),-38.386396,142.538873,1900
+FY18-19,43469,Wendouree Railway Station (Wendouree),-37.539713,143.820062,158150
+FY18-19,44951,Creswick Railway Station (Creswick),-37.424605,143.888122,1350
+FY18-19,44952,Clunes Railway Station (Clunes),-37.303143,143.781574,2200
+FY18-19,44953,Maryborough Railway Station (Maryborough),-37.050912,143.742399,9350
+FY18-19,47482,Talbot Railway Station (Talbot),-37.172902,143.705635,1000
+FY18-19,47641,Waurn Ponds Railway Station (Waurn Ponds),-38.21581,144.30682,276900
+FY18-19,47642,Epsom Railway Station (Epsom),-36.706343,144.321036,8150
+FY18-19,47647,Wyndham Vale Railway Station (Manor Lakes),-37.872884,144.608734,786100
+FY18-19,47648,Tarneit Railway Station (Tarneit),-37.832169,144.694716,1350500
+FY18-19,52011,Caroline Springs Railway Station (Ravenhall),-37.766144,144.735748,165500
+FY18-19,64408,Southern Cross Railway Station (Melbourne City),-37.818245,144.951691,6306000
+FY19-20,19980,Melton Railway Station (Melton South),-37.703362,144.572217,653450
+FY19-20,19981,Rockbank Railway Station (Rockbank),-37.729258,144.65063,57650
+FY19-20,19982,Deer Park Railway Station (Deer Park),-37.77776,144.772307,395900
+FY19-20,20020,Ardeer Railway Station (Ardeer),-37.783063,144.802193,46100
+FY19-20,20287,Albury Railway Station (Albury (NSW)),-36.084263,146.924518,26300
+FY19-20,20288,Ararat Railway Station (Ararat),-37.282202,142.936912,31700
+FY19-20,20289,Avenel Railway Station (Avenel),-36.893644,145.229517,1450
+FY19-20,20290,Bacchus Marsh Railway Station (Maddingley),-37.687517,144.436857,264050
+FY19-20,20291,Bairnsdale Railway Station (Bairnsdale),-37.828717,147.627615,46200
+FY19-20,20292,Ballan Railway Station (Ballan),-37.6043,144.225443,74350
+FY19-20,20293,Ballarat Railway Station (Ballarat Central),-37.55879,143.859452,459700
+FY19-20,20294,Beaufort Railway Station (Beaufort),-37.427875,143.382233,7300
+FY19-20,20295,Benalla Railway Station (Benalla),-36.544549,145.983914,19000
+FY19-20,20296,Bendigo Railway Station (Bendigo),-36.765673,144.283012,330750
+FY19-20,20297,Birregurra Railway Station (Birregurra),-38.328807,143.78362,2950
+FY19-20,20298,Broadford Railway Station (Broadford),-37.207202,145.043009,46200
+FY19-20,20299,Bunyip Railway Station (Bunyip),-38.09911,145.720762,13550
+FY19-20,20300,Camperdown Railway Station (Camperdown),-38.2289,143.150932,11250
+FY19-20,20301,Castlemaine Railway Station (Castlemaine),-37.062836,144.213801,182650
+FY19-20,20302,Chiltern Railway Station (Chiltern),-36.155634,146.61138,2250
+FY19-20,20303,Clarkefield Railway Station (Clarkefield),-37.483497,144.745368,34400
+FY19-20,20304,Colac Railway Station (Colac),-38.343378,143.586658,22650
+FY19-20,20305,Corio Railway Station (Corio),-38.072835,144.37977,24700
+FY19-20,20306,Dingee Railway Station (Dingee),-36.369235,144.23112,250
+FY19-20,20307,Donnybrook Railway Station (Donnybrook),-37.542571,144.96955,54750
+FY19-20,20308,Drouin Railway Station (Drouin),-38.136453,145.855943,96550
+FY19-20,20309,Eaglehawk Railway Station (Eaglehawk),-36.718528,144.248382,1700
+FY19-20,20310,Echuca Railway Station (Echuca),-36.130985,144.753463,11800
+FY19-20,20311,Elmore Railway Station (Elmore),-36.495017,144.607753,950
+FY19-20,20312,Euroa Railway Station (Euroa),-36.749135,145.568086,5300
+FY19-20,20313,Garfield Railway Station (Garfield),-38.09103,145.67422,20950
+FY19-20,20314,Geelong Railway Station (Geelong),-38.144241,144.354992,687100
+FY19-20,20315,Gisborne Railway Station (New Gisborne),-37.458825,144.598718,129050
+FY19-20,20316,Heathcote Junction Railway Station (Heathcote Junction),-37.371709,145.028202,8750
+FY19-20,20317,Kangaroo Flat Railway Station (Kangaroo Flat),-36.794838,144.248993,49400
+FY19-20,20318,Kerang Railway Station (Kerang),-35.733123,143.92443,6550
+FY19-20,20319,Kilmore East Railway Station (Kilmore East),-37.293208,144.983565,54000
+FY19-20,20320,Kyneton Railway Station (Kyneton),-37.258277,144.450602,123650
+FY19-20,20321,Lara Railway Station (Lara),-38.022428,144.414402,308000
+FY19-20,20323,Little River Railway Station (Little River),-37.962928,144.498485,18400
+FY19-20,20324,Longwarry Railway Station (Longwarry),-38.110992,145.76686,13750
+FY19-20,20325,Macedon Railway Station (Macedon),-37.423577,144.561397,28750
+FY19-20,20326,Malmsbury Railway Station (Malmsbury),-37.189744,144.375325,13750
+FY19-20,20327,Marshall Railway Station (Marshall),-38.19855,144.355055,176500
+FY19-20,20328,Moe Railway Station (Moe),-38.176907,146.260574,101800
+FY19-20,20329,Mooroopna Railway Station (Mooroopna),-36.399127,145.358217,4700
+FY19-20,20330,Morwell Railway Station (Morwell),-38.236723,146.396752,98000
+FY19-20,20331,Murchison East Railway Station (Murchison East),-36.61315,145.24064,9900
+FY19-20,20332,Nagambie Railway Station (Nagambie),-36.78546,145.160358,3950
+FY19-20,20333,Nar Nar Goon Railway Station (Nar Nar Goon),-38.08159,145.57167,7700
+FY19-20,20334,North Geelong Railway Station (North Geelong),-38.122836,144.352277,259300
+FY19-20,20335,North Shore Railway Station (North Shore),-38.098373,144.365323,65400
+FY19-20,20336,Pyramid Railway Station (Pyramid Hill),-36.053113,144.11313,2400
+FY19-20,20337,Riddells Creek Railway Station (Riddells Creek),-37.465127,144.679828,66800
+FY19-20,20338,Rochester Railway Station (Rochester),-36.362363,144.698683,3400
+FY19-20,20339,Rosedale Railway Station (Rosedale),-38.156403,146.786965,2700
+FY19-20,20341,Sale Railway Station (Sale),-38.103105,147.054802,28550
+FY19-20,20342,Seymour Railway Station (Seymour),-37.024725,145.137733,126950
+FY19-20,20343,Shepparton Railway Station (Shepparton),-36.383795,145.4065,56500
+FY19-20,20344,South Geelong Railway Station (South Geelong),-38.15866,144.358987,426950
+FY19-20,20345,Springhurst Railway Station (Springhurst),-36.185894,146.470421,1000
+FY19-20,20346,Stratford Railway Station (Stratford),-37.967047,147.081468,3900
+FY19-20,20347,Swan Hill Railway Station (Swan Hill),-35.341113,143.562347,31800
+FY19-20,20348,Tallarook Railway Station (Tallarook),-37.092332,145.103002,5900
+FY19-20,20349,Terang Railway Station (Terang),-38.236215,142.911467,6950
+FY19-20,20350,Trafalgar Railway Station (Trafalgar),-38.207239,146.15477,46900
+FY19-20,20351,Traralgon Railway Station (Traralgon),-38.198889,146.537884,129850
+FY19-20,20352,Tynong Railway Station (Tynong),-38.084994,145.628231,5500
+FY19-20,20353,Violet Town Railway Station (Violet Town),-36.638817,145.715926,2250
+FY19-20,20354,Wallan Railway Station (Wallan),-37.416534,145.005354,117350
+FY19-20,20355,Wandong Railway Station (Wandong),-37.354676,145.026414,29700
+FY19-20,20356,Wangaratta Railway Station (Wangaratta),-36.355102,146.317041,32200
+FY19-20,20357,Warragul Railway Station (Warragul),-38.165227,145.932675,144250
+FY19-20,20358,Warrnambool Railway Station (Warrnambool),-38.385015,142.475547,69650
+FY19-20,20359,Winchelsea Railway Station (Winchelsea),-38.240133,143.984137,4750
+FY19-20,20360,Wodonga Railway Station (Wodonga),-36.105829,146.871267,23500
+FY19-20,20361,Woodend Railway Station (Woodend),-37.358803,144.525893,138950
+FY19-20,20362,Yarragon Railway Station (Yarragon),-38.203155,146.063065,11650
+FY19-20,22257,Sherwood Park Railway Station (Warrnambool),-38.386396,142.538873,1600
+FY19-20,43469,Wendouree Railway Station (Wendouree),-37.539713,143.820062,108050
+FY19-20,44951,Creswick Railway Station (Creswick),-37.424605,143.888122,850
+FY19-20,44952,Clunes Railway Station (Clunes),-37.303143,143.781574,1950
+FY19-20,44953,Maryborough Railway Station (Maryborough),-37.050912,143.742399,7550
+FY19-20,47482,Talbot Railway Station (Talbot),-37.172902,143.705635,750
+FY19-20,47641,Waurn Ponds Railway Station (Waurn Ponds),-38.21581,144.30682,220000
+FY19-20,47642,Epsom Railway Station (Epsom),-36.706343,144.321036,6950
+FY19-20,47647,Wyndham Vale Railway Station (Manor Lakes),-37.872884,144.608734,695250
+FY19-20,47648,Tarneit Railway Station (Tarneit),-37.832169,144.694716,1135250
+FY19-20,48804,Cobblebank Railway Station (Cobblebank),-37.712542,144.604103,25450
+FY19-20,52011,Caroline Springs Railway Station (Ravenhall),-37.766144,144.735748,126700
+FY19-20,64408,Southern Cross Railway Station (Melbourne City),-37.818245,144.951691,4857200
+FY20-21,19980,Melton Railway Station (Melton South),-37.703362,144.572217,326100
+FY20-21,19981,Rockbank Railway Station (Rockbank),-37.729258,144.65063,57900
+FY20-21,19982,Deer Park Railway Station (Deer Park),-37.77776,144.772307,240650
+FY20-21,20020,Ardeer Railway Station (Ardeer),-37.783063,144.802193,23050
+FY20-21,20287,Albury Railway Station (Albury (NSW)),-36.084263,146.924518,9950
+FY20-21,20288,Ararat Railway Station (Ararat),-37.282202,142.936912,15500
+FY20-21,20289,Avenel Railway Station (Avenel),-36.893644,145.229517,750
+FY20-21,20290,Bacchus Marsh Railway Station (Maddingley),-37.687517,144.436857,130400
+FY20-21,20291,Bairnsdale Railway Station (Bairnsdale),-37.828717,147.627615,26350
+FY20-21,20292,Ballan Railway Station (Ballan),-37.6043,144.225443,35900
+FY20-21,20293,Ballarat Railway Station (Ballarat Central),-37.55879,143.859452,179500
+FY20-21,20294,Beaufort Railway Station (Beaufort),-37.427875,143.382233,5000
+FY20-21,20295,Benalla Railway Station (Benalla),-36.544549,145.983914,11100
+FY20-21,20296,Bendigo Railway Station (Bendigo),-36.765673,144.283012,157700
+FY20-21,20297,Birregurra Railway Station (Birregurra),-38.328807,143.78362,1650
+FY20-21,20298,Broadford Railway Station (Broadford),-37.207202,145.043009,27750
+FY20-21,20299,Bunyip Railway Station (Bunyip),-38.09911,145.720762,9200
+FY20-21,20300,Camperdown Railway Station (Camperdown),-38.2289,143.150932,6550
+FY20-21,20301,Castlemaine Railway Station (Castlemaine),-37.062836,144.213801,93600
+FY20-21,20302,Chiltern Railway Station (Chiltern),-36.155634,146.61138,1000
+FY20-21,20303,Clarkefield Railway Station (Clarkefield),-37.483497,144.745368,11250
+FY20-21,20304,Colac Railway Station (Colac),-38.343378,143.586658,13450
+FY20-21,20305,Corio Railway Station (Corio),-38.072835,144.37977,13700
+FY20-21,20306,Dingee Railway Station (Dingee),-36.369235,144.23112,250
+FY20-21,20307,Donnybrook Railway Station (Donnybrook),-37.542571,144.96955,27350
+FY20-21,20308,Drouin Railway Station (Drouin),-38.136453,145.855943,64000
+FY20-21,20309,Eaglehawk Railway Station (Eaglehawk),-36.718528,144.248382,1150
+FY20-21,20310,Echuca Railway Station (Echuca),-36.130985,144.753463,5950
+FY20-21,20311,Elmore Railway Station (Elmore),-36.495017,144.607753,600
+FY20-21,20312,Euroa Railway Station (Euroa),-36.749135,145.568086,3250
+FY20-21,20313,Garfield Railway Station (Garfield),-38.09103,145.67422,12250
+FY20-21,20314,Geelong Railway Station (Geelong),-38.144241,144.354992,336000
+FY20-21,20315,Gisborne Railway Station (New Gisborne),-37.458825,144.598718,60000
+FY20-21,20316,Heathcote Junction Railway Station (Heathcote Junction),-37.371709,145.028202,3750
+FY20-21,20317,Kangaroo Flat Railway Station (Kangaroo Flat),-36.794838,144.248993,22350
+FY20-21,20318,Kerang Railway Station (Kerang),-35.733123,143.92443,4100
+FY20-21,20319,Kilmore East Railway Station (Kilmore East),-37.293208,144.983565,27200
+FY20-21,20320,Kyneton Railway Station (Kyneton),-37.258277,144.450602,56450
+FY20-21,20321,Lara Railway Station (Lara),-38.022428,144.414402,147800
+FY20-21,20323,Little River Railway Station (Little River),-37.962928,144.498485,8600
+FY20-21,20324,Longwarry Railway Station (Longwarry),-38.110992,145.76686,10600
+FY20-21,20325,Macedon Railway Station (Macedon),-37.423577,144.561397,14300
+FY20-21,20326,Malmsbury Railway Station (Malmsbury),-37.189744,144.375325,7850
+FY20-21,20327,Marshall Railway Station (Marshall),-38.19855,144.355055,73950
+FY20-21,20328,Moe Railway Station (Moe),-38.176907,146.260574,69300
+FY20-21,20329,Mooroopna Railway Station (Mooroopna),-36.399127,145.358217,2050
+FY20-21,20330,Morwell Railway Station (Morwell),-38.236723,146.396752,62750
+FY20-21,20331,Murchison East Railway Station (Murchison East),-36.61315,145.24064,4300
+FY20-21,20332,Nagambie Railway Station (Nagambie),-36.78546,145.160358,1850
+FY20-21,20333,Nar Nar Goon Railway Station (Nar Nar Goon),-38.08159,145.57167,5300
+FY20-21,20334,North Geelong Railway Station (North Geelong),-38.122836,144.352277,114600
+FY20-21,20335,North Shore Railway Station (North Shore),-38.098373,144.365323,43450
+FY20-21,20336,Pyramid Railway Station (Pyramid Hill),-36.053113,144.11313,1450
+FY20-21,20337,Riddells Creek Railway Station (Riddells Creek),-37.465127,144.679828,24450
+FY20-21,20338,Rochester Railway Station (Rochester),-36.362363,144.698683,1500
+FY20-21,20339,Rosedale Railway Station (Rosedale),-38.156403,146.786965,2350
+FY20-21,20341,Sale Railway Station (Sale),-38.103105,147.054802,17850
+FY20-21,20342,Seymour Railway Station (Seymour),-37.024725,145.137733,58450
+FY20-21,20343,Shepparton Railway Station (Shepparton),-36.383795,145.4065,25100
+FY20-21,20344,South Geelong Railway Station (South Geelong),-38.15866,144.358987,162000
+FY20-21,20345,Springhurst Railway Station (Springhurst),-36.185894,146.470421,600
+FY20-21,20346,Stratford Railway Station (Stratford),-37.967047,147.081468,2500
+FY20-21,20347,Swan Hill Railway Station (Swan Hill),-35.341113,143.562347,15800
+FY20-21,20348,Tallarook Railway Station (Tallarook),-37.092332,145.103002,2800
+FY20-21,20349,Terang Railway Station (Terang),-38.236215,142.911467,3900
+FY20-21,20350,Trafalgar Railway Station (Trafalgar),-38.207239,146.15477,34300
+FY20-21,20351,Traralgon Railway Station (Traralgon),-38.198889,146.537884,82950
+FY20-21,20352,Tynong Railway Station (Tynong),-38.084994,145.628231,3100
+FY20-21,20353,Violet Town Railway Station (Violet Town),-36.638817,145.715926,1550
+FY20-21,20354,Wallan Railway Station (Wallan),-37.416534,145.005354,54750
+FY20-21,20355,Wandong Railway Station (Wandong),-37.354676,145.026414,12900
+FY20-21,20356,Wangaratta Railway Station (Wangaratta),-36.355102,146.317041,18750
+FY20-21,20357,Warragul Railway Station (Warragul),-38.165227,145.932675,93500
+FY20-21,20358,Warrnambool Railway Station (Warrnambool),-38.385015,142.475547,33150
+FY20-21,20359,Winchelsea Railway Station (Winchelsea),-38.240133,143.984137,3050
+FY20-21,20360,Wodonga Railway Station (Wodonga),-36.105829,146.871267,14600
+FY20-21,20361,Woodend Railway Station (Woodend),-37.358803,144.525893,61100
+FY20-21,20362,Yarragon Railway Station (Yarragon),-38.203155,146.063065,8200
+FY20-21,22257,Sherwood Park Railway Station (Warrnambool),-38.386396,142.538873,1150
+FY20-21,43469,Wendouree Railway Station (Wendouree),-37.539713,143.820062,43550
+FY20-21,44951,Creswick Railway Station (Creswick),-37.424605,143.888122,450
+FY20-21,44952,Clunes Railway Station (Clunes),-37.303143,143.781574,900
+FY20-21,44953,Maryborough Railway Station (Maryborough),-37.050912,143.742399,3600
+FY20-21,47482,Talbot Railway Station (Talbot),-37.172902,143.705635,350
+FY20-21,47641,Waurn Ponds Railway Station (Waurn Ponds),-38.21581,144.30682,85500
+FY20-21,47642,Epsom Railway Station (Epsom),-36.706343,144.321036,2900
+FY20-21,47647,Wyndham Vale Railway Station (Manor Lakes),-37.872884,144.608734,358050
+FY20-21,47648,Tarneit Railway Station (Tarneit),-37.832169,144.694716,593000
+FY20-21,48804,Cobblebank Railway Station (Cobblebank),-37.712542,144.604103,46950
+FY20-21,52011,Caroline Springs Railway Station (Ravenhall),-37.766144,144.735748,64400
+FY20-21,64408,Southern Cross Railway Station (Melbourne City),-37.818245,144.951691,2033750
+FY21-22,19980,Melton Railway Station (Melton South),-37.703362,144.572217,386650
+FY21-22,19981,Rockbank Railway Station (Rockbank),-37.729258,144.65063,101150
+FY21-22,19982,Deer Park Railway Station (Deer Park),-37.77776,144.772307,269400
+FY21-22,20020,Ardeer Railway Station (Ardeer),-37.783063,144.802193,30250
+FY21-22,20287,Albury Railway Station (Albury (NSW)),-36.084263,146.924518,13250
+FY21-22,20288,Ararat Railway Station (Ararat),-37.282202,142.936912,21050
+FY21-22,20289,Avenel Railway Station (Avenel),-36.893644,145.229517,650
+FY21-22,20290,Bacchus Marsh Railway Station (Maddingley),-37.687517,144.436857,176800
+FY21-22,20291,Bairnsdale Railway Station (Bairnsdale),-37.828717,147.627615,23100
+FY21-22,20292,Ballan Railway Station (Ballan),-37.6043,144.225443,50100
+FY21-22,20293,Ballarat Railway Station (Ballarat Central),-37.55879,143.859452,259850
+FY21-22,20294,Beaufort Railway Station (Beaufort),-37.427875,143.382233,5650
+FY21-22,20295,Benalla Railway Station (Benalla),-36.544549,145.983914,11750
+FY21-22,20296,Bendigo Railway Station (Bendigo),-36.765673,144.283012,181550
+FY21-22,20297,Birregurra Railway Station (Birregurra),-38.328807,143.78362,1250
+FY21-22,20298,Broadford Railway Station (Broadford),-37.207202,145.043009,32050
+FY21-22,20299,Bunyip Railway Station (Bunyip),-38.09911,145.720762,9900
+FY21-22,20300,Camperdown Railway Station (Camperdown),-38.2289,143.150932,5750
+FY21-22,20301,Castlemaine Railway Station (Castlemaine),-37.062836,144.213801,102000
+FY21-22,20302,Chiltern Railway Station (Chiltern),-36.155634,146.61138,1200
+FY21-22,20303,Clarkefield Railway Station (Clarkefield),-37.483497,144.745368,12300
+FY21-22,20304,Colac Railway Station (Colac),-38.343378,143.586658,12350
+FY21-22,20305,Corio Railway Station (Corio),-38.072835,144.37977,14800
+FY21-22,20306,Dingee Railway Station (Dingee),-36.369235,144.23112,100
+FY21-22,20307,Donnybrook Railway Station (Donnybrook),-37.542571,144.96955,41900
+FY21-22,20308,Drouin Railway Station (Drouin),-38.136453,145.855943,62300
+FY21-22,20309,Eaglehawk Railway Station (Eaglehawk),-36.718528,144.248382,1150
+FY21-22,20310,Echuca Railway Station (Echuca),-36.130985,144.753463,4850
+FY21-22,20311,Elmore Railway Station (Elmore),-36.495017,144.607753,350
+FY21-22,20312,Euroa Railway Station (Euroa),-36.749135,145.568086,3450
+FY21-22,20313,Garfield Railway Station (Garfield),-38.09103,145.67422,11950
+FY21-22,20314,Geelong Railway Station (Geelong),-38.144241,144.354992,402800
+FY21-22,20315,Gisborne Railway Station (New Gisborne),-37.458825,144.598718,64450
+FY21-22,20316,Heathcote Junction Railway Station (Heathcote Junction),-37.371709,145.028202,4700
+FY21-22,20317,Kangaroo Flat Railway Station (Kangaroo Flat),-36.794838,144.248993,26650
+FY21-22,20318,Kerang Railway Station (Kerang),-35.733123,143.92443,3350
+FY21-22,20319,Kilmore East Railway Station (Kilmore East),-37.293208,144.983565,29950
+FY21-22,20320,Kyneton Railway Station (Kyneton),-37.258277,144.450602,60200
+FY21-22,20321,Lara Railway Station (Lara),-38.022428,144.414402,166150
+FY21-22,20323,Little River Railway Station (Little River),-37.962928,144.498485,9350
+FY21-22,20324,Longwarry Railway Station (Longwarry),-38.110992,145.76686,11250
+FY21-22,20325,Macedon Railway Station (Macedon),-37.423577,144.561397,17350
+FY21-22,20326,Malmsbury Railway Station (Malmsbury),-37.189744,144.375325,9100
+FY21-22,20327,Marshall Railway Station (Marshall),-38.19855,144.355055,76200
+FY21-22,20328,Moe Railway Station (Moe),-38.176907,146.260574,66700
+FY21-22,20329,Mooroopna Railway Station (Mooroopna),-36.399127,145.358217,2400
+FY21-22,20330,Morwell Railway Station (Morwell),-38.236723,146.396752,59650
+FY21-22,20331,Murchison East Railway Station (Murchison East),-36.61315,145.24064,4300
+FY21-22,20332,Nagambie Railway Station (Nagambie),-36.78546,145.160358,2400
+FY21-22,20333,Nar Nar Goon Railway Station (Nar Nar Goon),-38.08159,145.57167,4550
+FY21-22,20334,North Geelong Railway Station (North Geelong),-38.122836,144.352277,132350
+FY21-22,20335,North Shore Railway Station (North Shore),-38.098373,144.365323,49000
+FY21-22,20336,Pyramid Railway Station (Pyramid Hill),-36.053113,144.11313,1300
+FY21-22,20337,Riddells Creek Railway Station (Riddells Creek),-37.465127,144.679828,30200
+FY21-22,20338,Rochester Railway Station (Rochester),-36.362363,144.698683,1250
+FY21-22,20339,Rosedale Railway Station (Rosedale),-38.156403,146.786965,1700
+FY21-22,20341,Sale Railway Station (Sale),-38.103105,147.054802,14200
+FY21-22,20342,Seymour Railway Station (Seymour),-37.024725,145.137733,69950
+FY21-22,20343,Shepparton Railway Station (Shepparton),-36.383795,145.4065,30100
+FY21-22,20344,South Geelong Railway Station (South Geelong),-38.15866,144.358987,181950
+FY21-22,20345,Springhurst Railway Station (Springhurst),-36.185894,146.470421,650
+FY21-22,20346,Stratford Railway Station (Stratford),-37.967047,147.081468,2150
+FY21-22,20347,Swan Hill Railway Station (Swan Hill),-35.341113,143.562347,14250
+FY21-22,20348,Tallarook Railway Station (Tallarook),-37.092332,145.103002,3150
+FY21-22,20349,Terang Railway Station (Terang),-38.236215,142.911467,3550
+FY21-22,20350,Trafalgar Railway Station (Trafalgar),-38.207239,146.15477,32200
+FY21-22,20351,Traralgon Railway Station (Traralgon),-38.198889,146.537884,83200
+FY21-22,20352,Tynong Railway Station (Tynong),-38.084994,145.628231,4200
+FY21-22,20353,Violet Town Railway Station (Violet Town),-36.638817,145.715926,1550
+FY21-22,20354,Wallan Railway Station (Wallan),-37.416534,145.005354,63350
+FY21-22,20355,Wandong Railway Station (Wandong),-37.354676,145.026414,14650
+FY21-22,20356,Wangaratta Railway Station (Wangaratta),-36.355102,146.317041,19350
+FY21-22,20357,Warragul Railway Station (Warragul),-38.165227,145.932675,94950
+FY21-22,20358,Warrnambool Railway Station (Warrnambool),-38.385015,142.475547,32600
+FY21-22,20359,Winchelsea Railway Station (Winchelsea),-38.240133,143.984137,2250
+FY21-22,20360,Wodonga Railway Station (Wodonga),-36.105829,146.871267,14650
+FY21-22,20361,Woodend Railway Station (Woodend),-37.358803,144.525893,66550
+FY21-22,20362,Yarragon Railway Station (Yarragon),-38.203155,146.063065,9050
+FY21-22,22257,Sherwood Park Railway Station (Warrnambool),-38.386396,142.538873,1050
+FY21-22,43469,Wendouree Railway Station (Wendouree),-37.539713,143.820062,65700
+FY21-22,44951,Creswick Railway Station (Creswick),-37.424605,143.888122,650
+FY21-22,44952,Clunes Railway Station (Clunes),-37.303143,143.781574,950
+FY21-22,44953,Maryborough Railway Station (Maryborough),-37.050912,143.742399,4900
+FY21-22,47482,Talbot Railway Station (Talbot),-37.172902,143.705635,400
+FY21-22,47641,Waurn Ponds Railway Station (Waurn Ponds),-38.21581,144.30682,96350
+FY21-22,47642,Epsom Railway Station (Epsom),-36.706343,144.321036,2450
+FY21-22,47647,Wyndham Vale Railway Station (Manor Lakes),-37.872884,144.608734,423550
+FY21-22,47648,Tarneit Railway Station (Tarneit),-37.832169,144.694716,663650
+FY21-22,48804,Cobblebank Railway Station (Cobblebank),-37.712542,144.604103,92550
+FY21-22,51809,Goornong Railway Station (Goornong),-36.615181,144.503478,200
+FY21-22,52011,Caroline Springs Railway Station (Ravenhall),-37.766144,144.735748,100000
+FY21-22,64408,Southern Cross Railway Station (Melbourne City),-37.818245,144.951691,2684700
+FY22-23,19980,Melton Railway Station (Melton South),-37.703362,144.572217,560150
+FY22-23,19981,Rockbank Railway Station (Rockbank),-37.729258,144.65063,212850
+FY22-23,19982,Deer Park Railway Station (Deer Park),-37.77776,144.772307,326000
+FY22-23,20020,Ardeer Railway Station (Ardeer),-37.783063,144.802193,53950
+FY22-23,20287,Albury Railway Station (Albury (NSW)),-36.084263,146.924518,32100
+FY22-23,20288,Ararat Railway Station (Ararat),-37.282202,142.936912,28950
+FY22-23,20289,Avenel Railway Station (Avenel),-36.893644,145.229517,1100
+FY22-23,20290,Bacchus Marsh Railway Station (Maddingley),-37.687517,144.436857,268350
+FY22-23,20291,Bairnsdale Railway Station (Bairnsdale),-37.828717,147.627615,33050
+FY22-23,20292,Ballan Railway Station (Ballan),-37.6043,144.225443,65900
+FY22-23,20293,Ballarat Railway Station (Ballarat Central),-37.55879,143.859452,390300
+FY22-23,20294,Beaufort Railway Station (Beaufort),-37.427875,143.382233,6000
+FY22-23,20295,Benalla Railway Station (Benalla),-36.544549,145.983914,19100
+FY22-23,20296,Bendigo Railway Station (Bendigo),-36.765673,144.283012,295850
+FY22-23,20297,Birregurra Railway Station (Birregurra),-38.328807,143.78362,2100
+FY22-23,20298,Broadford Railway Station (Broadford),-37.207202,145.043009,39450
+FY22-23,20299,Bunyip Railway Station (Bunyip),-38.09911,145.720762,9950
+FY22-23,20300,Camperdown Railway Station (Camperdown),-38.2289,143.150932,9600
+FY22-23,20301,Castlemaine Railway Station (Castlemaine),-37.062836,144.213801,151750
+FY22-23,20302,Chiltern Railway Station (Chiltern),-36.155634,146.61138,2600
+FY22-23,20303,Clarkefield Railway Station (Clarkefield),-37.483497,144.745368,23200
+FY22-23,20304,Colac Railway Station (Colac),-38.343378,143.586658,19000
+FY22-23,20305,Corio Railway Station (Corio),-38.072835,144.37977,23050
+FY22-23,20306,Dingee Railway Station (Dingee),-36.369235,144.23112,300
+FY22-23,20307,Donnybrook Railway Station (Donnybrook),-37.542571,144.96955,84050
+FY22-23,20308,Drouin Railway Station (Drouin),-38.136453,145.855943,75300
+FY22-23,20309,Eaglehawk Railway Station (Eaglehawk),-36.718528,144.248382,1750
+FY22-23,20310,Echuca Railway Station (Echuca),-36.130985,144.753463,9900
+FY22-23,20311,Elmore Railway Station (Elmore),-36.495017,144.607753,800
+FY22-23,20312,Euroa Railway Station (Euroa),-36.749135,145.568086,4250
+FY22-23,20313,Garfield Railway Station (Garfield),-38.09103,145.67422,18150
+FY22-23,20314,Geelong Railway Station (Geelong),-38.144241,144.354992,675600
+FY22-23,20315,Gisborne Railway Station (New Gisborne),-37.458825,144.598718,100250
+FY22-23,20316,Heathcote Junction Railway Station (Heathcote Junction),-37.371709,145.028202,5800
+FY22-23,20317,Kangaroo Flat Railway Station (Kangaroo Flat),-36.794838,144.248993,46550
+FY22-23,20318,Kerang Railway Station (Kerang),-35.733123,143.92443,5100
+FY22-23,20319,Kilmore East Railway Station (Kilmore East),-37.293208,144.983565,40300
+FY22-23,20320,Kyneton Railway Station (Kyneton),-37.258277,144.450602,90350
+FY22-23,20321,Lara Railway Station (Lara),-38.022428,144.414402,272200
+FY22-23,20323,Little River Railway Station (Little River),-37.962928,144.498485,13350
+FY22-23,20324,Longwarry Railway Station (Longwarry),-38.110992,145.76686,11600
+FY22-23,20325,Macedon Railway Station (Macedon),-37.423577,144.561397,30750
+FY22-23,20326,Malmsbury Railway Station (Malmsbury),-37.189744,144.375325,13350
+FY22-23,20327,Marshall Railway Station (Marshall),-38.19855,144.355055,113100
+FY22-23,20328,Moe Railway Station (Moe),-38.176907,146.260574,81600
+FY22-23,20329,Mooroopna Railway Station (Mooroopna),-36.399127,145.358217,3350
+FY22-23,20330,Morwell Railway Station (Morwell),-38.236723,146.396752,75000
+FY22-23,20331,Murchison East Railway Station (Murchison East),-36.61315,145.24064,6000
+FY22-23,20332,Nagambie Railway Station (Nagambie),-36.78546,145.160358,3450
+FY22-23,20333,Nar Nar Goon Railway Station (Nar Nar Goon),-38.08159,145.57167,5300
+FY22-23,20334,North Geelong Railway Station (North Geelong),-38.122836,144.352277,235750
+FY22-23,20335,North Shore Railway Station (North Shore),-38.098373,144.365323,60550
+FY22-23,20336,Pyramid Railway Station (Pyramid Hill),-36.053113,144.11313,1800
+FY22-23,20337,Riddells Creek Railway Station (Riddells Creek),-37.465127,144.679828,54200
+FY22-23,20338,Rochester Railway Station (Rochester),-36.362363,144.698683,2250
+FY22-23,20339,Rosedale Railway Station (Rosedale),-38.156403,146.786965,1700
+FY22-23,20341,Sale Railway Station (Sale),-38.103105,147.054802,19050
+FY22-23,20342,Seymour Railway Station (Seymour),-37.024725,145.137733,98600
+FY22-23,20343,Shepparton Railway Station (Shepparton),-36.383795,145.4065,52200
+FY22-23,20344,South Geelong Railway Station (South Geelong),-38.15866,144.358987,267600
+FY22-23,20345,Springhurst Railway Station (Springhurst),-36.185894,146.470421,1100
+FY22-23,20346,Stratford Railway Station (Stratford),-37.967047,147.081468,2900
+FY22-23,20347,Swan Hill Railway Station (Swan Hill),-35.341113,143.562347,27750
+FY22-23,20348,Tallarook Railway Station (Tallarook),-37.092332,145.103002,4800
+FY22-23,20349,Terang Railway Station (Terang),-38.236215,142.911467,6100
+FY22-23,20350,Trafalgar Railway Station (Trafalgar),-38.207239,146.15477,37000
+FY22-23,20351,Traralgon Railway Station (Traralgon),-38.198889,146.537884,113700
+FY22-23,20352,Tynong Railway Station (Tynong),-38.084994,145.628231,5400
+FY22-23,20353,Violet Town Railway Station (Violet Town),-36.638817,145.715926,1700
+FY22-23,20354,Wallan Railway Station (Wallan),-37.416534,145.005354,101500
+FY22-23,20355,Wandong Railway Station (Wandong),-37.354676,145.026414,20750
+FY22-23,20356,Wangaratta Railway Station (Wangaratta),-36.355102,146.317041,32350
+FY22-23,20357,Warragul Railway Station (Warragul),-38.165227,145.932675,119600
+FY22-23,20358,Warrnambool Railway Station (Warrnambool),-38.385015,142.475547,61700
+FY22-23,20359,Winchelsea Railway Station (Winchelsea),-38.240133,143.984137,3550
+FY22-23,20360,Wodonga Railway Station (Wodonga),-36.105829,146.871267,26400
+FY22-23,20361,Woodend Railway Station (Woodend),-37.358803,144.525893,104000
+FY22-23,20362,Yarragon Railway Station (Yarragon),-38.203155,146.063065,11400
+FY22-23,22257,Sherwood Park Railway Station (Warrnambool),-38.386396,142.538873,1800
+FY22-23,43469,Wendouree Railway Station (Wendouree),-37.539713,143.820062,106000
+FY22-23,44951,Creswick Railway Station (Creswick),-37.424605,143.888122,750
+FY22-23,44952,Clunes Railway Station (Clunes),-37.303143,143.781574,1150
+FY22-23,44953,Maryborough Railway Station (Maryborough),-37.050912,143.742399,6400
+FY22-23,47482,Talbot Railway Station (Talbot),-37.172902,143.705635,650
+FY22-23,47641,Waurn Ponds Railway Station (Waurn Ponds),-38.21581,144.30682,178200
+FY22-23,47642,Epsom Railway Station (Epsom),-36.706343,144.321036,3400
+FY22-23,47647,Wyndham Vale Railway Station (Manor Lakes),-37.872884,144.608734,715950
+FY22-23,47648,Tarneit Railway Station (Tarneit),-37.832169,144.694716,1159600
+FY22-23,48804,Cobblebank Railway Station (Cobblebank),-37.712542,144.604103,178900
+FY22-23,49295,Raywood Railway Station (Raywood),-36.531956,144.201158,300
+FY22-23,49296,Huntly Railway Station (Huntly),-36.665847,144.369821,250
+FY22-23,51809,Goornong Railway Station (Goornong),-36.615181,144.503478,800
+FY22-23,52011,Caroline Springs Railway Station (Ravenhall),-37.766144,144.735748,185750
+FY22-23,64408,Southern Cross Railway Station (Melbourne City),-37.818245,144.951691,4555550

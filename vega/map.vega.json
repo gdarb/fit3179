@@ -86,8 +86,16 @@
     },
     {
       "data": {
-        "url": "/fit3179/data/metropolitan-stations-21-22.csv"
+        "url": "/fit3179/data/metropolitan-stations.csv"
       },
+      "transform": [
+        {
+          "filter": {
+            "field": "Fin_year",
+            "equal": "FY22-23"
+          }
+        }
+      ],
       "mark": { "type": "circle", "tooltip": { "content": "data" } },
       "encoding": {
         "longitude": { "field": "Stop_long", "type": "quantitative" },
@@ -114,8 +122,16 @@
     },
     {
       "data": {
-        "url": "/fit3179/data/regional-stations-21-22.csv"
+        "url": "/fit3179/data/regional-stations.csv"
       },
+      "transform": [
+        {
+          "filter": {
+            "field": "Fin_year",
+            "equal": "FY22-23"
+          }
+        }
+      ],
       "mark": { "type": "circle", "tooltip": { "content": "data" } },
       "encoding": {
         "longitude": { "field": "Stop_long", "type": "quantitative" },
