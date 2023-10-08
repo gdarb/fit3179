@@ -1,7 +1,5 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 1200,
-  "height": 150,
   "data": {
     "url": "/fit3179/data/monthly.csv"
   },
@@ -15,80 +13,164 @@
       "as": "YearMonthDate"
     }
   ],
-  "layer": [
+  "vconcat": [
     {
-      "mark": "line",
+      "transform": [
+        {
+          "fold": [
+            "Metropolitan train",
+            "Metropolitan tram",
+            "Metropolitan bus",
+            "Regional train",
+            "Regional coach",
+            "Regional bus"
+          ],
+          "as": ["TransportType", "Passengers"]
+        },
+        {
+          "aggregate": [
+            {
+              "op": "sum",
+              "field": "Passengers",
+              "as": "TotalPassengers"
+            }
+          ],
+          "groupby": ["TransportType"]
+        }
+      ],
+      "width": 600,
+      "height": 300,
+      "mark": "bar",
       "encoding": {
         "x": {
-          "field": "YearMonthDate",
-          "type": "temporal",
-          "title": "Date",
-          "axis": {
-            "format": "%Y-%m"
-          }
+          "field": "TransportType",
+          "type": "ordinal",
+          "title": "Type of Transport",
+          "sort": "-y"
         },
         "y": {
           "field": "TotalPassengers",
           "type": "quantitative",
           "title": "Total Passengers"
         },
-        "opacity": { "value": 0.5 }
-      },
-      "title": "Total Passengers Over Time"
-    },
-    {
-      "mark": "circle",
-      "encoding": {
-        "x": {
-          "field": "YearMonthDate",
-          "type": "temporal"
+        "color": {
+          "field": "TransportType",
+          "type": "nominal",
+          "legend": null,
+          "scale": {
+            "domain": [
+              "Metropolitan train",
+              "Metropolitan tram",
+              "Metropolitan bus",
+              "Regional train",
+              "Regional coach",
+              "Regional bus"
+            ],
+            "range": [
+              "lightblue",
+              "lightblue",
+              "lightblue",
+              "lightgreen",
+              "lightgreen",
+              "lightgreen"
+            ]
+          }
         },
-        "y": {
-          "field": "TotalPassengers",
-          "type": "quantitative"
-        },
-        "size": { "value": 30 },
-        "opacity": { "value": 1 },
         "tooltip": [
+          {
+            "field": "TransportType",
+            "type": "ordinal",
+            "title": "Type of Transport"
+          },
           {
             "field": "TotalPassengers",
             "type": "quantitative",
             "title": "Total Passengers",
             "format": ","
-          },
-          {
-            "field": "YearMonthDate",
-            "type": "temporal",
-            "title": "Date",
-            "format": "%B %Y"
           }
         ]
-      }
+      },
+      "title": "Total Passengers by Type of Transport"
     },
     {
-      "transform": [
+      "width": 1200,
+      "height": 150,
+      "layer": [
         {
-          "filter": "datum.Year == 2020 && datum.Month == 3"
+          "mark": "line",
+          "encoding": {
+            "x": {
+              "field": "YearMonthDate",
+              "type": "temporal",
+              "title": "Date",
+              "axis": {
+                "format": "%Y-%m"
+              }
+            },
+            "y": {
+              "field": "TotalPassengers",
+              "type": "quantitative",
+              "title": "Total Passengers"
+            },
+            "opacity": { "value": 0.5 }
+          },
+          "title": "Total Passengers Over Time"
+        },
+        {
+          "mark": "circle",
+          "encoding": {
+            "x": {
+              "field": "YearMonthDate",
+              "type": "temporal"
+            },
+            "y": {
+              "field": "TotalPassengers",
+              "type": "quantitative"
+            },
+            "size": { "value": 30 },
+            "opacity": { "value": 1 },
+            "tooltip": [
+              {
+                "field": "TotalPassengers",
+                "type": "quantitative",
+                "title": "Total Passengers",
+                "format": ","
+              },
+              {
+                "field": "YearMonthDate",
+                "type": "temporal",
+                "title": "Date",
+                "format": "%B %Y"
+              }
+            ]
+          }
+        },
+        {
+          "transform": [
+            {
+              "filter": "datum.Year == 2020 && datum.Month == 3"
+            }
+          ],
+          "mark": {
+            "type": "text",
+            "baseline": "bottom",
+            "align": "left",
+            "dx": 5,
+            "dy": -5
+          },
+          "encoding": {
+            "x": {
+              "field": "YearMonthDate",
+              "type": "temporal"
+            },
+            "y": {
+              "field": "TotalPassengers",
+              "type": "quantitative"
+            },
+            "text": { "value": "COVID-19 lockdowns begin" }
+          }
         }
-      ],
-      "mark": {
-        "type": "text",
-        "baseline": "bottom",
-        "align": "left",
-        "dx": 5,
-        "dy": -5
-      },
-      "encoding": {
-        "x": {
-          "field": "YearMonthDate",
-          "type": "temporal"
-        },
-        "y": {
-          "field": "TotalPassengers",
-          "type": "quantitative"
-        },
-        "text": { "value": "COVID-19 lockdowns begin" }
-      }
+      ]
     }
   ]
 }
