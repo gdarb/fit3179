@@ -118,7 +118,7 @@
           "title": "Annual passengers",
           "scale": {
             "type": "log",
-            "scheme": "viridis"
+            "scheme": "blues"
           }
         },
         "tooltip": [
@@ -155,7 +155,7 @@
           "title": "Annual passengers",
           "scale": {
             "type": "log",
-            "scheme": "viridis"
+            "scheme": "blues"
           }
         },
         "tooltip": [
