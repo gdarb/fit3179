@@ -6,7 +6,7 @@ import { VegaLite } from "react-vega";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between gap-y-5 p-24">
       <VegaLite spec={map} actions={false} />
       {/* @ts-ignore */}
       <VegaLite spec={line} actions={false} />

@@ -11,10 +11,10 @@
   "params": [
     {
       "name": "zoom_level",
-      "value": 4400,
+      "value": 4900,
       "bind": {
         "input": "range",
-        "min": 4400,
+        "min": 4900,
         "max": 100000,
         "step": 100,
         "name": "Zoom: "

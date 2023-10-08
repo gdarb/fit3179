@@ -13,9 +13,10 @@
       "as": "YearMonthDate"
     }
   ],
-  "vconcat": [
+  "hconcat": [
     {
       "transform": [
+        { "filter": { "param": "time_brush" } },
         {
           "fold": [
             "Metropolitan train",
@@ -38,8 +39,8 @@
           "groupby": ["TransportType"]
         }
       ],
-      "width": 600,
-      "height": 300,
+      "width": 350,
+      "height": 200,
       "mark": "bar",
       "encoding": {
         "x": {
@@ -93,10 +94,16 @@
       "title": "Total Passengers by Type of Transport"
     },
     {
-      "width": 1200,
-      "height": 150,
+      "width": 750,
+      "height": 200,
       "layer": [
         {
+          "params": [
+            {
+              "name": "time_brush",
+              "select": { "type": "interval", "encodings": ["x"] }
+            }
+          ],
           "mark": "line",
           "encoding": {
             "x": {
