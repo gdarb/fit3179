@@ -34,6 +34,17 @@
         "labels": ["Melbourne CBD", "Geelong", "Bendigo", "Sale"],
         "name": "Map Centre: "
       }
+    },
+    {
+      "name": "selectedYear",
+      "value": 2022,
+      "bind": {
+        "input": "range",
+        "min": 2018,
+        "max": 2022,
+        "step": 1,
+        "name": "Year: "
+      }
     }
   ],
   "layer": [
@@ -90,10 +101,11 @@
       },
       "transform": [
         {
-          "filter": {
-            "field": "Fin_year",
-            "equal": "FY22-23"
-          }
+          "calculate": "slice(datum.Fin_year, 2, 4) * 1 + 2000",
+          "as": "StartYear"
+        },
+        {
+          "filter": "datum.StartYear == selectedYear"
         }
       ],
       "mark": { "type": "circle", "tooltip": { "content": "data" } },
@@ -126,10 +138,11 @@
       },
       "transform": [
         {
-          "filter": {
-            "field": "Fin_year",
-            "equal": "FY22-23"
-          }
+          "calculate": "slice(datum.Fin_year, 2, 4) * 1 + 2000",
+          "as": "StartYear"
+        },
+        {
+          "filter": "datum.StartYear == selectedYear"
         }
       ],
       "mark": { "type": "circle", "tooltip": { "content": "data" } },
