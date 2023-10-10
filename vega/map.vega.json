@@ -75,22 +75,7 @@
       "mark": {
         "type": "geoshape",
         "fill": "white",
-        "stroke": "orangered",
-        "opacity": 0.5
-      }
-    },
-    {
-      "data": {
-        "url": "/fit3179/data/output.json",
-        "format": {
-          "type": "topojson",
-          "feature": "ne_10m_railroads"
-        }
-      },
-      "mark": {
-        "type": "geoshape",
-        "fill": "white",
-        "stroke": "hotpink",
+        "stroke": "red",
         "opacity": 0.5
       }
     },
