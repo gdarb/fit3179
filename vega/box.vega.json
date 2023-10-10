@@ -3,7 +3,7 @@
   "data": {
     "url": "/fit3179/data/metropolitan-stations.csv"
   },
-  "width": 600,
+  "width": 400,
   "height": 200,
   "title": "Distribution of Passengers by Day of the Week",
   "transform": [

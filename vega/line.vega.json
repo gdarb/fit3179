@@ -3,6 +3,7 @@
   "data": {
     "url": "/fit3179/data/monthly.csv"
   },
+  "config": { "concat": { "spacing": 60 } },
   "transform": [
     {
       "calculate": "(+datum['Metropolitan train']) + (+datum['Metropolitan tram']) + (+datum['Metropolitan bus']) + (+datum['Regional train']) + (+datum['Regional coach']) + (+datum['Regional bus'])",
@@ -39,7 +40,7 @@
           "groupby": ["TransportType"]
         }
       ],
-      "width": 350,
+      "width": 300,
       "height": 200,
       "mark": "bar",
       "encoding": {
@@ -47,7 +48,10 @@
           "field": "TransportType",
           "type": "ordinal",
           "title": "Type of Transport",
-          "sort": "-y"
+          "sort": "-y",
+          "axis": {
+            "labelAngle": -45
+          }
         },
         "y": {
           "field": "TotalPassengers",
@@ -94,7 +98,7 @@
       "title": "Total Passengers by Type of Transport"
     },
     {
-      "width": 750,
+      "width": 650,
       "height": 200,
       "layer": [
         {
