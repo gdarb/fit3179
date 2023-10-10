@@ -72,12 +72,13 @@
               "Regional bus"
             ],
             "range": [
-              "salmon",
-              "salmon",
-              "salmon",
-              "lightgreen",
-              "lightgreen",
-              "lightgreen"
+              "indigo",
+              "indigo",
+              "indigo",
+              "maroon",
+              "maroon",
+              "maroon",
+              "maroon"
             ]
           }
         },
