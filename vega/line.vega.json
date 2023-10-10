@@ -115,7 +115,7 @@
               "type": "temporal",
               "title": "Date",
               "axis": {
-                "format": "%Y-%m"
+                "tickCount": "year"
               }
             },
             "y": {
