@@ -1,0 +1,59 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "/fit3179/data/metropolitan-stations.csv"
+  },
+  "width": 600,
+  "height": 200,
+  "title": "Distribution of Passengers by Day of the Week",
+  "transform": [
+    {
+      "fold": ["Pax_weekday", "Pax_Saturday", "Pax_Sunday"],
+      "as": ["key", "value"]
+    },
+    {
+      "filter": {
+        "field": "Stop_name",
+        "oneOf": [
+          "Box Hill",
+          "Caulfield",
+          "South Yarra",
+          "Flagstaff",
+          "Footscray",
+          "Richmond"
+        ]
+      }
+    },
+    {
+      "calculate": "datum.key === 'Pax_weekday' ? 'Weekday' : datum.key === 'Pax_Saturday' ? 'Saturday' : 'Sunday'",
+      "as": "key"
+    }
+  ],
+  "mark": {
+    "type": "boxplot",
+    "extent": "min-max"
+  },
+  "encoding": {
+    "x": {
+      "field": "Stop_name",
+      "title": "Station",
+      "type": "ordinal",
+      "axis": {
+        "labelAngle": -45
+      }
+    },
+    "y": {
+      "field": "value",
+      "title": "Passengers",
+      "type": "quantitative"
+    },
+    "color": {
+      "field": "key",
+      "type": "nominal",
+      "legend": {
+        "title": "Day of the Week"
+      }
+    },
+    "tooltip": null
+  }
+}
