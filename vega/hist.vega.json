@@ -1,0 +1,35 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "data": {
+    "url": "/fit3179/data/traffic-volume.csv"
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "bin": true,
+      "field": "GROWTH_RATE",
+      "type": "quantitative",
+      "axis": {
+        "title": "Growth Rate"
+      }
+    },
+    "y": {
+      "aggregate": "count",
+      "type": "quantitative",
+      "scale": {
+        "type": "log"
+      },
+      "axis": {
+        "title": "Number of Records",
+        "values": [1, 10, 100, 1000, 10000, 100000]
+      }
+    },
+    "tooltip": {
+      "aggregate": "count",
+      "type": "quantitative"
+    }
+  },
+  "title": "Histogram of Growth Rate",
+  "width": 400,
+  "height": 200
+}

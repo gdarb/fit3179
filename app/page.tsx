@@ -1,6 +1,7 @@
 "use client";
 
 import box from "@/vega/box.vega.json";
+import hist from "@/vega/hist.vega.json";
 import line from "@/vega/line.vega.json";
 import map from "@/vega/map.vega.json";
 import { ReactNode } from "react";
@@ -35,6 +36,17 @@ export default function Home() {
           </span>
           {/* @ts-ignore */}
           <VegaLite spec={box} actions={false} />
+        </div>
+      </Panel>
+      <Panel>
+        <div className="flex items-center gap-10">
+          {/* @ts-ignore */}
+          <VegaLite spec={hist} actions={false} />
+          <span className="max-w-xs text-gray-600">
+            Proin sagittis nisl rhoncus mattis rhoncus urna. Elit at imperdiet
+            dui accumsan sit amet nulla facilisi morbi. Pharetra pharetra massa
+            massa ultricies mi quis hendrerit.
+          </span>
         </div>
       </Panel>
     </main>
