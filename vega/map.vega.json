@@ -69,11 +69,18 @@
       ],
       "mark": {
         "type": "geoshape",
-        "fill": "white",
-        "stroke": "red",
-        "opacity": 0.5
+        "fill": "white"
       },
       "encoding": {
+        "stroke": {
+          "field": "AnnualVehicles",
+          "type": "quantitative",
+          "title": "Annual vehicles",
+          "scale": {
+            "type": "log",
+            "scheme": "reds"
+          }
+        },
         "tooltip": [
           {
             "field": "properties.DECLARED_R",
