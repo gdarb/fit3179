@@ -72,11 +72,32 @@
           "feature": "Traffic_Volume"
         }
       },
+      "transform": [
+        {
+          "calculate": "datum.properties.ALLVEHS_AA * 365",
+          "as": "AnnualVehicles"
+        }
+      ],
       "mark": {
         "type": "geoshape",
         "fill": "white",
         "stroke": "red",
         "opacity": 0.5
+      },
+      "encoding": {
+        "tooltip": [
+          {
+            "field": "properties.DECLARED_R",
+            "type": "nominal",
+            "title": "Road"
+          },
+          {
+            "field": "AnnualVehicles",
+            "type": "quantitative",
+            "title": "Annual vehicles",
+            "format": ","
+          }
+        ]
       }
     },
     {
