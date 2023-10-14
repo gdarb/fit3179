@@ -5,7 +5,7 @@
   },
   "width": 400,
   "height": 200,
-  "title": "Distribution of Passengers by Day of the Week",
+  "title": "Distribution of Passengers (2018 – 2023)",
   "config": { "tooltipFormat": { "numberFormat": "," } },
   "transform": [
     {
