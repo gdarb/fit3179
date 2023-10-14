@@ -20,13 +20,38 @@ export default function Home() {
           aliqua.
         </p>
       </div>
-      <Panel>
-        <VegaLite spec={map} actions={false} />
-      </Panel>
-      <Panel>
-        {/* @ts-ignore */}
-        <VegaLite spec={line} actions={false} />
-      </Panel>
+
+      <div className="divide-y divide-gray-200 overflow-hidden rounded-lg bg-white shadow">
+        <div className="px-4 py-5 sm:p-6">
+          {/* @ts-ignore */}
+          <VegaLite spec={map} actions={false} />
+        </div>
+        <div className="px-4 py-4 text-gray-600 sm:px-6">
+          At ultrices mi tempus imperdiet nulla malesuada pellentesque elit.
+          Lectus proin nibh nisl condimentum id venenatis a. Diam in arcu cursus
+          euismod quis viverra. Phasellus vestibulum lorem sed risus. Cursus
+          vitae congue mauris rhoncus. Viverra mauris in aliquam sem fringilla
+          ut. A scelerisque purus semper eget duis at tellus at. Sit amet
+          consectetur adipiscing elit ut aliquam purus sit.
+        </div>
+      </div>
+
+      <div className="divide-y divide-gray-200 overflow-hidden rounded-lg bg-white shadow">
+        <div className="px-4 py-5 sm:p-6">
+          {/* @ts-ignore */}
+          <VegaLite spec={line} actions={false} />
+        </div>
+        <div className="px-4 py-4 text-gray-600 sm:px-6">
+          Aenean pharetra magna ac placerat vestibulum lectus mauris ultrices. A
+          arcu cursus vitae congue. Varius sit amet mattis vulputate enim.
+          Ultricies mi quis hendrerit dolor. Leo integer malesuada nunc vel
+          risus commodo. Tincidunt vitae semper quis lectus nulla at.
+          Ullamcorper sit amet risus nullam eget felis eget nunc. Laoreet sit
+          amet cursus sit. Leo duis ut diam quam. Id aliquet lectus proin nibh
+          nisl condimentum.
+        </div>
+      </div>
+
       <Panel>
         <div className="flex items-center gap-10">
           <span className="max-w-md text-gray-600">
@@ -40,6 +65,7 @@ export default function Home() {
           <VegaLite spec={box} actions={false} />
         </div>
       </Panel>
+
       <Panel>
         <div className="flex items-center gap-10">
           {/* @ts-ignore */}
