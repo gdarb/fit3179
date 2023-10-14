@@ -10,7 +10,8 @@
       "field": "GROWTH_RATE",
       "type": "quantitative",
       "axis": {
-        "title": "Growth Rate"
+        "title": "Growth Rate",
+        "format": ".0%"
       }
     },
     "y": {

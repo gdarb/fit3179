@@ -42,10 +42,11 @@ export default function Home() {
         <div className="flex items-center gap-10">
           {/* @ts-ignore */}
           <VegaLite spec={hist} actions={false} />
-          <span className="max-w-xs text-gray-600">
-            Proin sagittis nisl rhoncus mattis rhoncus urna. Elit at imperdiet
-            dui accumsan sit amet nulla facilisi morbi. Pharetra pharetra massa
-            massa ultricies mi quis hendrerit.
+          <span className="max-w-md text-gray-600">
+            <b>Growth rate</b> is the percentage annual increase in traffic
+            volume for a road. The histogram opposite shows that a majority of
+            freeways and highways in Victoria had an increase of traffic volume
+            between <b>0% and 10%</b>.
           </span>
         </div>
       </Panel>
