@@ -24,10 +24,14 @@
         "values": [1, 10, 100, 1000, 10000, 100000]
       }
     },
-    "tooltip": {
-      "aggregate": "count",
-      "type": "quantitative"
-    }
+    "tooltip": [
+      {
+        "aggregate": "count",
+        "type": "quantitative",
+        "title": "Number of Records",
+        "format": ","
+      }
+    ]
   },
   "title": "Histogram of Growth Rate",
   "width": 400,
