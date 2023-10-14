@@ -6,6 +6,7 @@
   "width": 400,
   "height": 200,
   "title": "Distribution of Passengers by Day of the Week",
+  "config": { "tooltipFormat": { "numberFormat": "," } },
   "transform": [
     {
       "fold": ["Pax_weekday", "Pax_Saturday", "Pax_Sunday"],
@@ -53,7 +54,6 @@
       "legend": {
         "title": "Day of the Week"
       }
-    },
-    "tooltip": null
+    }
   }
 }
