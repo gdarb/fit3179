@@ -75,7 +75,7 @@
         "stroke": {
           "field": "AnnualVehicles",
           "type": "quantitative",
-          "title": "Annual vehicles",
+          "title": "Annual Vehicles",
           "scale": {
             "type": "log",
             "scheme": "reds"
@@ -90,7 +90,7 @@
           {
             "field": "AnnualVehicles",
             "type": "quantitative",
-            "title": "Annual vehicles",
+            "title": "Annual Vehicles",
             "format": ","
           }
         ]
@@ -112,7 +112,7 @@
         "color": {
           "field": "Pax_annual",
           "type": "quantitative",
-          "title": "Annual passengers",
+          "title": "Annual Passengers",
           "scale": {
             "type": "log",
             "scheme": "blues"
@@ -123,7 +123,7 @@
           {
             "field": "Pax_annual",
             "type": "quantitative",
-            "title": "Annual passengers",
+            "title": "Annual Passengers",
             "format": ","
           }
         ]
@@ -145,7 +145,7 @@
         "color": {
           "field": "Pax_annual",
           "type": "quantitative",
-          "title": "Annual passengers",
+          "title": "Annual Passengers",
           "scale": {
             "type": "log",
             "scheme": "blues"
