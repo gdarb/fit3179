@@ -9,7 +9,7 @@ import { VegaLite } from "react-vega";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between gap-y-5 bg-gray-50 px-24 py-12">
+    <main className="flex min-h-screen flex-col items-center justify-between gap-y-10 bg-gray-50 px-24 py-12">
       <div className="w-full bg-gray-50">
         <div className="relative isolate px-6 lg:px-8">
           <div
