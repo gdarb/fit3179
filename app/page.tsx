@@ -29,10 +29,12 @@ export default function Home() {
       </Panel>
       <Panel>
         <div className="flex items-center gap-10">
-          <span className="max-w-xs text-gray-600">
-            Pellentesque sagittis, nisi in ultrices rhoncus, odio metus tempus
-            lacus, vel facilisis turpis velit ac elit. Quisque efficitur velit
-            id eros sollicitudin, sit amet pulvinar diam pulvinar.
+          <span className="max-w-md text-gray-600">
+            The following boxplot highlights the unique nature of some
+            metropolitan stations. <b>Flagstaff</b> carries a minimal amount of
+            passengers on weekends due to trains skipping the station.{" "}
+            <b>Richmond</b> has a flipped distribution due to the station being
+            a major interchange between lines.
           </span>
           {/* @ts-ignore */}
           <VegaLite spec={box} actions={false} />
