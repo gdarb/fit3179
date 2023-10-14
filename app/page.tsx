@@ -27,12 +27,15 @@ export default function Home() {
           <VegaLite spec={map} actions={false} />
         </div>
         <div className="px-4 py-4 text-gray-600 sm:px-6">
-          At ultrices mi tempus imperdiet nulla malesuada pellentesque elit.
-          Lectus proin nibh nisl condimentum id venenatis a. Diam in arcu cursus
-          euismod quis viverra. Phasellus vestibulum lorem sed risus. Cursus
-          vitae congue mauris rhoncus. Viverra mauris in aliquam sem fringilla
-          ut. A scelerisque purus semper eget duis at tellus at. Sit amet
-          consectetur adipiscing elit ut aliquam purus sit.
+          This visualisation maps the annual traffic volume on{" "}
+          <b className="text-red-600">Victorian roads</b> against the annual
+          passenger count at <b className="text-sky-600">train stations</b>. The{" "}
+          <b>radial</b> layout of Victoria&apos;s train lines emanates
+          distinctly from Melbourne, underscoring the city&apos;s central role
+          in the state&apos;s rail network. Additionally, the concentrated and
+          darker dots in the central region emphasise Melbourne&apos;s
+          significantly <b>higher passenger count</b> when compared to the
+          regions.
         </div>
       </div>
 
