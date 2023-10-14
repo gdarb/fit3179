@@ -42,13 +42,14 @@ export default function Home() {
           <VegaLite spec={line} actions={false} />
         </div>
         <div className="px-4 py-4 text-gray-600 sm:px-6">
-          Aenean pharetra magna ac placerat vestibulum lectus mauris ultrices. A
-          arcu cursus vitae congue. Varius sit amet mattis vulputate enim.
-          Ultricies mi quis hendrerit dolor. Leo integer malesuada nunc vel
-          risus commodo. Tincidunt vitae semper quis lectus nulla at.
-          Ullamcorper sit amet risus nullam eget felis eget nunc. Laoreet sit
-          amet cursus sit. Leo duis ut diam quam. Id aliquet lectus proin nibh
-          nisl condimentum.
+          Utilising the interactive feature of the line chart, the timeline can
+          be <b>scrubbed</b> to filter data on the adjoining bar chart. The data
+          illustrates a gradual return of public transport usage to its{" "}
+          <b>pre-pandemic levels</b> by mid-2023. Notably, while{" "}
+          <b>Regional Trains</b> traditionally and cumulatively outpace{" "}
+          <b>Regional Buses</b> in popularity, an intriguing shift was observed
+          at the pandemic&apos;s peak where buses experienced a surge,{" "}
+          <b>surpassing</b> train usage temporarily.
         </div>
       </div>
 
