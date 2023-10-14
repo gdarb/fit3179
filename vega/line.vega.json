@@ -16,91 +16,8 @@
   ],
   "hconcat": [
     {
-      "transform": [
-        { "filter": { "param": "time_brush" } },
-        {
-          "fold": [
-            "Metropolitan train",
-            "Metropolitan tram",
-            "Metropolitan bus",
-            "Regional train",
-            "Regional coach",
-            "Regional bus"
-          ],
-          "as": ["TransportType", "Passengers"]
-        },
-        {
-          "aggregate": [
-            {
-              "op": "sum",
-              "field": "Passengers",
-              "as": "TotalPassengers"
-            }
-          ],
-          "groupby": ["TransportType"]
-        }
-      ],
-      "width": 300,
-      "height": 200,
-      "mark": "bar",
-      "encoding": {
-        "x": {
-          "field": "TransportType",
-          "type": "ordinal",
-          "title": "Type of Transport",
-          "sort": "-y",
-          "axis": {
-            "labelAngle": -45
-          }
-        },
-        "y": {
-          "field": "TotalPassengers",
-          "type": "quantitative",
-          "title": "Total Passengers"
-        },
-        "color": {
-          "field": "TransportType",
-          "type": "nominal",
-          "legend": null,
-          "scale": {
-            "domain": [
-              "Metropolitan train",
-              "Metropolitan tram",
-              "Metropolitan bus",
-              "Regional train",
-              "Regional coach",
-              "Regional bus"
-            ],
-            "range": [
-              "indigo",
-              "indigo",
-              "indigo",
-              "maroon",
-              "maroon",
-              "maroon",
-              "maroon"
-            ]
-          }
-        },
-        "tooltip": [
-          {
-            "field": "TransportType",
-            "type": "ordinal",
-            "title": "Type of Transport"
-          },
-          {
-            "field": "TotalPassengers",
-            "type": "quantitative",
-            "title": "Total Passengers",
-            "format": ","
-          }
-        ]
-      },
-      "title": "Total Passengers by Type of Transport"
-    },
-    {
-      "width": 650,
-      "height": 200,
+      "width": 675,
+      "height": 225,
       "layer": [
         {
           "params": [
@@ -183,6 +100,65 @@
           }
         }
       ]
+    },
+    {
+      "transform": [
+        { "filter": { "param": "time_brush" } },
+        {
+          "fold": [
+            "Metropolitan train",
+            "Metropolitan tram",
+            "Metropolitan bus",
+            "Regional train",
+            "Regional coach",
+            "Regional bus"
+          ],
+          "as": ["TransportType", "Passengers"]
+        },
+        {
+          "aggregate": [
+            {
+              "op": "sum",
+              "field": "Passengers",
+              "as": "TotalPassengers"
+            }
+          ],
+          "groupby": ["TransportType"]
+        }
+      ],
+      "width": 275,
+      "height": 175,
+      "mark": "bar",
+      "encoding": {
+        "x": {
+          "field": "TransportType",
+          "type": "ordinal",
+          "title": "Type of Transport",
+          "sort": "-y",
+          "axis": {
+            "labelAngle": -45
+          }
+        },
+        "y": {
+          "field": "TotalPassengers",
+          "type": "quantitative",
+          "title": "Total Passengers"
+        },
+        "tooltip": [
+          {
+            "field": "TransportType",
+            "type": "ordinal",
+            "title": "Type of Transport"
+          },
+          {
+            "field": "TotalPassengers",
+            "type": "quantitative",
+            "title": "Total Passengers",
+            "format": ","
+          }
+        ]
+      },
+      "title": "Total Passengers by Type of Transport"
     }
   ]
 }
