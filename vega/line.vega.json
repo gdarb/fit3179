@@ -3,7 +3,7 @@
   "data": {
     "url": "/fit3179/data/monthly.csv"
   },
-  "config": { "concat": { "spacing": 60 } },
+  "config": { "concat": { "spacing": 60 }, "numberFormat": ".2s" },
   "transform": [
     {
       "calculate": "(+datum['Metropolitan train']) + (+datum['Metropolitan tram']) + (+datum['Metropolitan bus']) + (+datum['Regional train']) + (+datum['Regional coach']) + (+datum['Regional bus'])",
